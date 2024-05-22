@@ -1,0 +1,51 @@
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    --rebecca-purple: rgb(32, 30, 108);
+    background-image: linear-gradient(
+      to bottom right, 
+      hsla(203, 86%, 17%, 0.733), 
+      var(--rebecca-purple), 
+      hsla(29, 14%, 68%, 0.405)
+    );
+    background-color: var(--rebecca-purple);
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.nav-left .menu-icon{
+    width: 22px;
+    margin-right: 25px;
+}
+.nav-left .logo{
+    width: 130px;
+    mix-blend-mode:color-dodge ;
+}
+.nav-middle .search-box{
+    border: 1px solid #f5f5f54b;
+    background-color: rgb(255, 255, 255);
+    margin-right: 0px;
+    padding: 8px 12px;
+    border-radius: 30px 0px 30px 0px ;
+    box-shadow:  05px 05px 05px  05px rgba(44, 39, 39, 0.508);
+}
+.nav-middle .search-box input{
+    width: 600px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+   
+}
+.nav-middle .search-box img{
+    width: 15px;
+}
+.nav-right img{
+    width: 30px;
+    margin-right: 25px;
+}
+.nav-right .user-icon{
+    width: 35px;
+    border-radius: 50%;
+}
